@@ -1,0 +1,116 @@
+body {
+  font-family: Roboto, sans-serif;
+  	background-image: url(https://get.wallhere.com/photo/sunlight-space-sky-blue-horizon-circle-atmosphere-glare-light-background-star-line-screenshot-computer-wallpaper-atmosphere-of-earth-outer-space-astronomical-object-698646.jpg);
+
+}
+h1 {
+	text-align: center;
+	padding: 0 500px;
+    margin-left: 80px;
+    font-family: Roboto, sans-serif;
+}
+
+
+nav {
+	border: 5px solid #2d508f;
+	  overflow: visible;
+  width: 30%;
+  text-align: center;
+  margin-left: 520px;
+  font-family: roboto, Impact;
+  border-radius: 5%;
+}
+img {
+	height: 100px;
+	width: 100px;
+	display:block;
+margin:auto;
+border-radius: 5%;
+}
+
+
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+}
+a:hover {
+  color:#00FFFF ;
+}
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
+
+
+.contacts {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+
+
+
+
+footer {
+  margin-top: 30px;
+}
+
+
+.wrapper
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+.title 
+{
+width: 25ch;
+color: black;
+font-family: monospace;
+font-size: 40px;
+white-space: nowrap;
+overflow: hidden;
+border-right: 4px solid orange;
+animation: flashing-border 0.75s step-end infinite,
+printed-text 5s steps(25);
+}
+
+@keyframes flashing-border {
+	0%{
+		border-color: orange;
+	}
+	50% {
+		border-color: transparent;
+	}
+	100% {
+		border-color: orange;
+}
+}
+
+@keyframes printed-text {
+	from {
+		width: 0;
+	}
+}
+
+.avatar
+ {
+ display: block;
+   margin-left: 700px;
+	border-radius: 20%;
+	width: 150px;
+	height: 150px;
+}
+
+.avatar:hover {
+  border: 3px solid #00FFFF  ;
+}
