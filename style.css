@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  	background-image: url(https://get.wallhere.com/photo/sunlight-space-sky-blue-horizon-circle-atmosphere-glare-light-background-star-line-screenshot-computer-wallpaper-atmosphere-of-earth-outer-space-astronomical-object-698646.jpg);
+  	background-image: url(https://i.pinimg.com/originals/28/79/ac/2879accc54c1b22f91f97d7d650ae43f.jpg);
 
 }
 h1 {
@@ -53,6 +53,14 @@ a::after {
 .contacts {
 	margin-top: 0px;
 	margin-left: 0px;
+	text-align: center;
+	border: 5px solid #2d508f;
+	  overflow: visible;
+  width: 30%;
+  text-align: center;
+  margin-left: 520px;
+  font-family: roboto, Impact;
+  border-radius: 5%;
 }
 
 
@@ -105,12 +113,53 @@ printed-text 5s steps(25);
 .avatar
  {
  display: block;
+
    margin-left: 700px;
-	border-radius: 20%;
+	border-radius: 10%;
 	width: 150px;
 	height: 150px;
 }
 
 .avatar:hover {
-  border: 3px solid #00FFFF  ;
+   border: 3px solid #413f3f;
 }
+
+button {
+	margin-left: 720px;
+	margin-top: 10px;
+}
+
+
+
+.mask {
+	margin-left: 45em;
+    margin-right: auto;
+    
+    --uiMaskClipPath: var(--maskClipPath);
+    box-sizing: var(--maskBoxSizing, border-box);
+    display: var(--maskDisplay, inline-flex);
+    padding: var(--maskStrokeThickness, 3px);
+    clip-path: var(--uiMaskClipPath);
+    background-color: var(--maskStrokeColor, currentColor);
+    --maskStrokeColor: #ab7445; 
+    --maskStrokeThickness: 5px; 
+}
+.mask-img{
+	
+    max-width: 100%;
+    display: block;
+    clip-path: var(--uiMaskClipPath);
+}
+.mask, 
+.mask-img{
+    transition: clip-path var(--maskAnimationDuration, .2s) var(--maskAnimationTimingFunction, ease-out);
+}
+
+.mask-four{
+    --maskClipPath: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
+}
+.mask-four:hover, 
+.mask-four:focus{
+    --maskClipPath: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
