@@ -1,3 +1,3 @@
 george.sazonov-qa.github.io
 
-HTML + CSS + JS
+Мой сайт на HTML + CSS + JS
